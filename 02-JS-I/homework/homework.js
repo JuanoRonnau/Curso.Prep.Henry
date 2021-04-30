@@ -170,7 +170,13 @@ function esPositivo(numero) {
   //Si el número es positivo, devolver ---> "Es positivo"
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false:
-  
+  if (numero > 0) {
+    return "Es positivo"
+  } else if (numero < 0) {
+    return "Es negativo"
+  } else {
+    return false
+  }
   }
 
   
@@ -230,7 +236,12 @@ function esVocal(letra){
   //Verificar si el usuario ingresó un string de más de un carácter y, en ese caso, informarle 
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
   //Escribe tu código aquí
-  
+  if (letra.length > 1) {
+    return "Dato incorrecto"
+  } 
+  if (letra === 'a' || letra === 'e' || letra === 'i' || letra === 'o' || letra === 'u') {
+    return "Es vocal"
+  }
 }
 
 
