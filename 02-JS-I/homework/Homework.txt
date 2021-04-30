@@ -1,0 +1,13 @@
+
+Estas son las explicaciones de los temas de la Homework 1:
+
+Variables: Es la forma de asignar un valor a algo y almacenarlo para usarlo mas adelante, para asignar una variable debemos usar la keyword "var"
+seguida del nombre (la cual va a ser l arefencia futura) y si queremos asignarle un valor usamos el signo "igual". Podemos usar tambien la keyword "const" que genera una variable que no se puede cambiar.
+
+Strings: Son cadenas de caracteres alfanumericos, estos van escritos si o si etre comillas simples o dobles.
+
+Funciones: Son un tipo de objetos llamados "callable objects", sirven para hacer cosas con un conjunto de variables desde hacer un calculo matemático hasta hacer que la consola no devuelva una "string" a partir de una condición.
+
+Declaraciones "if": Lo usamos para que nuestra función verifique si algo es verdadero y ejecute el código que pusimos si es que es así o avanzando si no lo es.
+
+Valores booleanos: Proviene de la lógica de Boole que es en lo que esta inspirado el código binario. Esencialmente significa que solo hay dos opciones, 0 o 1, verdadero o falso, etc., los valoores booleanos en JS son "true" y "false"
