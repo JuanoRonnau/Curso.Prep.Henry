@@ -1,0 +1,9 @@
+Respuestas a la consigna uno de la homework numero 3 de javascript
+
+for: Es un statement que crea un bucle, debemos establecer una variable, poner una condicion para que el bucle se ejecute haste que esta sea falsa y por último incrementar la variable para que el loop no sea siempre el mismo y se convierta en un loop infinito. La estructura es: for(//variable; //condición; //incremeto variable){//statement}.
+
+&&: es un operador logico que se llama AND o Y en español, evalua si ambas expresiones son true y ejecuta la acción, si una de esas expresiones es false no se ejecuta.
+
+||: operador lógico "OR" o "O" en español, evalua si uno o ambas expresiones son tru y se ejcuta, de ser ambas false no se ejecutará.
+
+!: operador lógico "NOT", devuelve el valor booleano opuesto al que se pasa. Se puede usar para expresar que algo no es igual a algo.
